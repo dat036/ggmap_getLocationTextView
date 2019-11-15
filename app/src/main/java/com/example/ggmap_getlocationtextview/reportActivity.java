@@ -51,7 +51,7 @@ import java.util.UUID;
 public class reportActivity extends AppCompatActivity
         implements View.OnClickListener {
 
-    private static final String UPLOAD_URL = "http://192.168.1.3/upload/insert_image.php";
+    private static final String UPLOAD_URL = "http://192.168.1.11/upload/insert_image.php";
     private static final int IMAGE_REQUEST_CODE = 3;
     private static final int STORAGE_PERMISSION_CODE = 123;
     private ImageView imageView;

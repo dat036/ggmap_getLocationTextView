@@ -57,7 +57,7 @@ public class joinDialog extends BottomSheetDialogFragment {
 //        Bundle bundle = getArguments();
 //        String str = bundle.getString("key","");
 //        Log.e("AAA",str);
-        getData("http://192.168.1.3/upload/uploads/1.jpg");
+        getData("http://192.168.1.11/upload/uploads/1.jpg");
         return v;
 
     }
