@@ -78,7 +78,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         checkPermisson();
 
-        getLocation("http://192.168.1.3/androidwebservice/wasteLocation.php");
+        getLocation("http://192.168.1.11/androidwebservice/wasteLocation.php");
         reflect();
         searchLocation();
 
